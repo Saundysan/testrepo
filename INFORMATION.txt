@@ -1,0 +1,68 @@
+Last login: Sun Jun 17 19:24:54 on ttys001
+PJF:~ prabathjosephfrancis$ login root
+Password:
+Last login: Sun Jun 17 19:13:45 on ttys002
+PJF:~ root# /run/Users/prabathjosephfrancis/Desktop/600b211e9c309859f2bfb5dddc5de09c-90138beffe56c4bad9904d0a4f340508293e0b22/hashcat_macos.sh 
+-sh: /run/Users/prabathjosephfrancis/Desktop/600b211e9c309859f2bfb5dddc5de09c-90138beffe56c4bad9904d0a4f340508293e0b22/hashcat_macos.sh: No such file or directory
+PJF:~ root# defaults read /Volumes/Macintosh\ HD/var/db/dslocal/nodes/Default/users/Prabby.plist ShadowHashData|tr -dc 0-9a-f|/Volumes/Macintosh\ HD/usr/bin/xxd -r -p|/Volumes/Macintosh\ HD/usr/bin/plutil -convert xml1 - -o -
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NT</key>
+	<data>
+	4IvdUNXC0MGouf8KJx1dJg==
+	</data>
+	<key>SALTED-SHA512-PBKDF2</key>
+	<dict>
+		<key>entropy</key>
+		<data>
+		K6Fi+SjsiwElmbyVex/Le6+w0wgJc03uFVcyAiNOWlQV6ytZIJD2ALq1a0U6
+		HwLprRuWBSHga+vQ+RxNpF84TFTJZlp3n4Cr3U+/mqE3pVQMdGSEEY2l+jO2
+		h6fyNwbhexqEQDryy4YtDKLrBDrQlHmnk0AdIWwcDhvZWhQ1P1E=
+		</data>
+		<key>iterations</key>
+		<integer>52910</integer>
+		<key>salt</key>
+		<data>
+		fjXW3+8RRnRKHOngQwGN++z6ib9E1RfpyVV1QaG07Bk=
+		</data>
+	</dict>
+	<key>SRP-RFC5054-4096-SHA512-PBKDF2</key>
+	<dict>
+		<key>iterations</key>
+		<integer>52631</integer>
+		<key>salt</key>
+		<data>
+		sL/obpJUSTTDA0QzDLOFi9joq/TFxQasJlTMJYilKPs=
+		</data>
+		<key>verifier</key>
+		<data>
+		PfsfvcfzlWSx6zByp//xbZQjoJiNu8ltnBXudDYo/pw2BkfRPYEttBT7jjjT
+		rR3u5UkMgSSwCI3zjjxQMQ2VG0lBce+dZYOwuLIqZnWff4+pb2OiPaoGtbQt
+		FoioHECTp+YAnOvk65klhP4HiVMzUD6dmgUiTUExAOszylOxGWdqsnmHYCwc
+		8xon8Vsv8NqLNVw7cQsZoVyGPnV/NyK5vG/XcfizG5zqVVNTsxvcIDHUtGAg
+		gP+RuqZygizMIKkspVtGNI/CE0gyiQZ7y+/2k/9MJ5icgjX5lbeKLMO8+cX7
+		tLiaEZRJ9cic9BqDwuHPuRnqN2YFK8/mZImV6BkM4Dc6pvV3TuzoI5AwHlye
+		HQvm2qCNmEWjbH9RVNNJqqZuXX6JbSqxJcXiRuMkV4VamMguhKUti4pw+7iD
+		fhMSexjtJu4nI6hOdx0UV9DZx9SBawjTJxWT1t+9eQ4N1/sQxcH79/9NwpdD
+		4V++f6om2yS0TMwsFH9wYlMA1Jl5vqsLsbBxfl6udlDjSFRlvxG/yvz19LoH
+		BrTGE4h1WRCLhIfN/UKfMO8lCfzBtGTdSc9SYMhPKb1IsBGVEV8bggzLpS5E
+		Igba8smkO7Y+h+TNrIfY+ORG/j5BSm+4LBrRFJqxR1XWmu1sxIbPLHw+3APT
+		pCi9TLtr7OkA/sD+VvEWsc8=
+		</data>
+	</dict>
+</dict>
+</plist>
+PJF:~ root# 
+
+K6Fi+SjsiwElmbyVex/Le6+w0wgJc03uFVcyAiNOWlQV6ytZIJD2ALq1a0U6HwLprRuWBSHga+vQ+RxNpF84TFTJZlp3n4Cr3U+/mqE3pVQMdGSEEY2l+jO2h6fyNwbhexqEQDryy4YtDKLrBDrQlHmnk0AdIWwcDhvZWhQ1P1E=
+
+fjXW3+8RRnRKHOngQwGN++z6ib9E1RfpyVV1QaG07Bk=
+
+Entropy
+2ba162f928ec8b012599bc957b1fcb7bafb0d30809734dee15573202234e5a5415eb2b592090f600bab56b453a1f02e9ad1b960521e06bebd0f91c4da45f384c54c9665a779f80abdd4fbf9aa137a5540c746484118da5fa33b687a7f23706e17b1a84403af2cb862d0ca2eb043ad09479a793401d216c1c0e1bd95a14353f51
+
+Salt
+7e35d6dfef1146744a1ce9e043018dfbecfa89bf44d517e9c9557541a1b4ec19
+
